@@ -1,0 +1,35 @@
+> Entering new SimpleSequentialChain chain...
+
+
+> Entering new APIChain chain...
+ https://newsapi.org/v2/top-headlines?country=us&language=en&pageSize=2
+{"status":"ok","totalResults":37,"articles":[{"source":{"id":null,"name":"Endpoints News"},"author":"Ryan Cross","title":"Lilly's Alzheimer's drug donanemab succeeds in PhIII trial – Endpoints News - Endpoints News","description":"At long last, Eli Lilly has found success in its decades-long effort to develop a treatment for Alzheimer’s disease. The company announced Wednesday morning that its experimental drug, donanemab, slowed a key measure of cognitive and functional decline by 35%…","url":"https://endpts.com/lillys-alzheimers-drug-donanemab-succeeds-in-phase-iii-trial/","urlToImage":"https://endpts.com/wp-content/uploads/2023/05/John-Sims-Eli-Lilly.jpg","publishedAt":"2023-05-03T10:02:45Z","content":"At long last, Eli Lilly has found success in its decades-long effort to develop a treatment for Alzheimer’s disease.\r\nThe company announced Wednesday morning that its experimental drug, donanemab, sl… [+582 chars]"},{"source":{"id":"cnn","name":"CNN"},"author":"Josh Pennington,Amy Croffey,Radina Gigova,Rob Picheta","title":"Eight children killed as 14-year-old boy allegedly opens fire at Serbian school, reports say - CNN","description":"Eight children have died after a 14-year-old boy allegedly opened fire in his elementary school in the Serbian capital Belgrade, officials reported Wednesday.","url":"https://www.cnn.com/2023/05/03/europe/serbia-school-shooting-intl/index.html","urlToImage":"https://media.cnn.com/api/v1/images/stellar/prod/230503091758-01-serbia-school-shooting-050323.jpg?c=16x9&q=w_800,c_fill","publishedAt":"2023-05-03T09:52:00Z","content":"Eight children have died after a 14-year-old boy allegedly opened fire in his elementary school in the Serbian capital Belgrade, officialsreported Wednesday.\r\nA security guard was also killed, while … [+1300 chars]"}]}
+
+> Finished chain.
+ This response from the API shows that two current events that happened in the US written in English are Eli Lilly's success in developing a treatment for Alzheimer's disease and a school shooting in Belgrade, Serbia, where 8 children and a security guard were killed.
+
+
+> Entering new LLMChain chain...
+Prompt after formatting:
+
+Create a two paragraph 'Law and Order' plot synopsis based upon the following current event:
+ This response from the API shows that two current events that happened in the US written in English are Eli Lilly's success in developing a treatment for Alzheimer's disease and a school shooting in Belgrade, Serbia, where 8 children and a security guard were killed.
+
+Remember to focus the plot around the murder while the current event is used to create characters and settings.
+Replace real people's names or companies/brand names with fake names that are very similar names.
+Replace locations with locations in New York City.
+Do not replace characters names from the show 'Law and Order' or places in New York City.
+Remember to set show in New York City
+
+
+> Finished chain.
+
+Law and Order follows Lt. Olivia Benson and Sgt. Elliot Stabler of the New York City police department as they solve a heinous crime. The two detectives discover that a school shooting has occurred at Belleview Elementary School in the heart of Manhattan, leaving eight children and a security guard dead.
+
+Further investigation reveals their prime suspect is a prominent scientist at Elinz Pharmaceuticals, who has recently made a breakthrough in experimenting and developing treatments for Alzheimer's disease. Benson and Stabler soon uncover a possible motive, as it appears the suspect was seeking revenge against the school for a personal conflict. As the detectives narrow in on the suspect, evidence begins to point towards a larger conspiracy when the scientists mind-controlled and coerced into committing the massacre. Will Benson and Stabler be able to bring the killer to justice before more innocent people are hurt?
+
+> Finished chain.
+
+Law and Order follows Lt. Olivia Benson and Sgt. Elliot Stabler of the New York City police department as they solve a heinous crime. The two detectives discover that a school shooting has occurred at Belleview Elementary School in the heart of Manhattan, leaving eight children and a security guard dead.
+
+Further investigation reveals their prime suspect is a prominent scientist at Elinz Pharmaceuticals, who has recently made a breakthrough in experimenting and developing treatments for Alzheimer's disease. Benson and Stabler soon uncover a possible motive, as it appears the suspect was seeking revenge against the school for a personal conflict. As the detectives narrow in on the suspect, evidence begins to point towards a larger conspiracy when the scientists mind-controlled and coerced into committing the massacre. Will Benson and Stabler be able to bring the killer to justice before more innocent people are hurt?
